@@ -13,8 +13,8 @@
 		CEA156B725684E34005EFD57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA156B625684E34005EFD57 /* Assets.xcassets */; };
 		CEA156BA25684E34005EFD57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA156B825684E34005EFD57 /* LaunchScreen.storyboard */; };
 		CEA156C525684E34005EFD57 /* PeakWithTddTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA156C425684E34005EFD57 /* PeakWithTddTests.swift */; };
-		CEA156E925685583005EFD57 /* Peak.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA156E825685583005EFD57 /* Peak.swift */; };
-		CEA156EA25685583005EFD57 /* Peak.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA156E825685583005EFD57 /* Peak.swift */; };
+		CEA156F02568581F005EFD57 /* Peak.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA156EF2568581F005EFD57 /* Peak.swift */; };
+		CEA156F12568581F005EFD57 /* Peak.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA156EF2568581F005EFD57 /* Peak.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 		CEA156C025684E34005EFD57 /* PeakWithTddTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeakWithTddTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA156C425684E34005EFD57 /* PeakWithTddTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeakWithTddTests.swift; sourceTree = "<group>"; };
 		CEA156C625684E34005EFD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEA156E825685583005EFD57 /* Peak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peak.swift; sourceTree = "<group>"; };
+		CEA156EF2568581F005EFD57 /* Peak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peak.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 				CEA156B625684E34005EFD57 /* Assets.xcassets */,
 				CEA156B825684E34005EFD57 /* LaunchScreen.storyboard */,
 				CEA156BB25684E34005EFD57 /* Info.plist */,
-				CEA156E825685583005EFD57 /* Peak.swift */,
+				CEA156EF2568581F005EFD57 /* Peak.swift */,
 			);
 			path = PeakWithTdd;
 			sourceTree = "<group>";
@@ -200,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA156E925685583005EFD57 /* Peak.swift in Sources */,
+				CEA156F02568581F005EFD57 /* Peak.swift in Sources */,
 				CEA156AE25684E31005EFD57 /* AppDelegate.swift in Sources */,
 				CEA156B025684E31005EFD57 /* SceneDelegate.swift in Sources */,
 			);
@@ -210,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA156EA25685583005EFD57 /* Peak.swift in Sources */,
+				CEA156F12568581F005EFD57 /* Peak.swift in Sources */,
 				CEA156C525684E34005EFD57 /* PeakWithTddTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

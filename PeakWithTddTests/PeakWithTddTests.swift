@@ -8,4 +8,11 @@
 import XCTest
 @testable import PeakWithTdd
 
-class PeakWithTddTests: XCTestCase {}
+class PeakWithTddTests: XCTestCase {
+    func testReturnExpectedValue() {
+        let expectedValue = 14
+        let result = 0
+        XCTAssertEqual(result, expectedValue)
+    }
+}
+
