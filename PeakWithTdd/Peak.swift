@@ -8,8 +8,8 @@
 import Foundation
 
 class Peak {
-    func findPeak(in array: [Int]) -> Int {
+    func findPeak(in array: [Int]) -> Int? {
         let arraySorted = array.sorted()
-        return arraySorted.last ?? 0
+        return arraySorted.last
     }
 }
