@@ -9,6 +9,10 @@ import Foundation
 
 class Peak {
     func findPeak(in array: [Int]) -> Int? {
+        guard !array.isEmpty else {
+            return nil
+        }
+        
         var maxElement = 0
         var left = 0
         var right = array.count - 1
