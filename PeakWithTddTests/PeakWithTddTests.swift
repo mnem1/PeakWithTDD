@@ -11,7 +11,8 @@ import XCTest
 class PeakWithTddTests: XCTestCase {
     func testReturnExpectedValue() {
         let expectedValue = 14
-        let result = 0
+        let array = [1,4,8,14,10,2,0]
+        let result = Peak().findPeak(in: array)
         XCTAssertEqual(result, expectedValue)
     }
 }
