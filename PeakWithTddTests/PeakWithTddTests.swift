@@ -20,5 +20,10 @@ class PeakWithTddTests: XCTestCase {
         let result = Peak().findPeak(in: array)
         XCTAssertNil(result)
     }
+    func testReturnNilWhenNumberOfElementsIsLessThree(){
+        let array = [1,2]
+        let result = Peak().findPeak(in: array)
+        XCTAssertNil(result)
+    }
 }
 
