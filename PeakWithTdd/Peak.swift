@@ -9,7 +9,7 @@ import Foundation
 
 class Peak {
     func findPeak(in array: [Int]) -> Int? {
-        guard !array.isEmpty else {
+        guard array.count >= 3 else {
             return nil
         }
         
