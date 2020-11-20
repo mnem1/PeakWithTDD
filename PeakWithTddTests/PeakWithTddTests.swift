@@ -15,5 +15,10 @@ class PeakWithTddTests: XCTestCase {
         let result = Peak().findPeak(in: array)
         XCTAssertEqual(result, expectedValue)
     }
+    func testReturnNilWhenArrayIsEmmpty() {
+        let array = [Int]()
+        let result = Peak().findPeak(in: array)
+        XCTAssertNil(result)
+    }
 }
 
